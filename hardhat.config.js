@@ -21,7 +21,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 
     hardhat: {
       forking: {
-        url: <POLYGON_MUMBAI_URL>
+        url: "<POLYGON_MUMBAI_URL>"
       },
       gas: 12000000,
       blockGasLimit: 0x1fffffffffffff,
